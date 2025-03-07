@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff; /* Azul */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo o nombre de la aplicación */
+  .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Lista de enlaces */
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Elementos del menú */
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  /* Enlaces del menú */
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Efecto hover para los enlaces */
+  .nav-link:hover {
+    background-color: #ff4444; /* Rojo */
+    color: white;
+  }
+  
+  /* Estilo activo para el enlace seleccionado */
+  .nav-link.active {
+    background-color: #ff4444; /* Rojo */
+    color: white;
+  }
